@@ -102,7 +102,7 @@ for(var i = 0; i < 4; i++){
   var guessNum = prompt('Guess a number between 0 and 1000!!');
   guessNum = parseInt(guessNum);
   if(guessNum === 42 ){
- var correct = alert('Correct! The answer is always 42.');
+ var correct = alert('That\'s right! Look at you go!');
  numCorrect = numCorrect + 1;
   break;
 } else if(guessNum < 42){
@@ -119,7 +119,29 @@ for(var i = 0; i < 4; i++){
 
 alert('The correct answer is always 42');
 
-alert('congrats! you got ' + numCorrect + ' out of 7 correct.')
+var poss = ['italy','spain','france','austria','US'];
+var correct = false;
+
+for(var n = 0; n<7; n++){
+
+  var guessPoss = prompt('Try to guess a country Leah has visited')
+  for( var l = 0; l < guessPoss.length; l++){
+    if(guessPoss === poss[l]){
+      alert('Right!');
+      correct = true;
+      numCorrect = numCorrect+1;
+      break;
+    }
+  } 
+  if(correct){
+    break;
+  } else{
+    alert('Oh no! try again');
+  }
+  
+} 
+
+alert('congrats! you got ' + numCorrect + ' out of 7 correct.');
 
 
 
