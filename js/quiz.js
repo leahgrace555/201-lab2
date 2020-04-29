@@ -87,6 +87,29 @@ if(knitting.toLowerCase() === 'yes'){
 }
 
 
+// question 6, number guessing game with only 4 tries to get it right
+
+for(var i = 0; i < 4; i++){
+  var guessNum = prompt('Guess a number between 0 and 1000!!');
+  guessNum = parseInt(guessNum);
+  if(guessNum === 42 ){
+ var correct = alert('Correct! The answer is always 42.')
+  break;
+} else if(guessNum < 42){
+  alert('Whoops! Too low');
+
+} else if(guessNum > 42){
+  alert('Aiming a bit high there, bud. Try setting the bar lower next time.');
+} else{
+  alert('Yikes! Numerical values only, please.');
+}
+
+
+}
+
+
+
+
 
 
 
