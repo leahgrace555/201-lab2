@@ -126,7 +126,7 @@ for(var n = 0; n<7; n++){
 
   var guessPoss = prompt('Try to guess a country Leah has visited')
   for( var l = 0; l < guessPoss.length; l++){
-    if(guessPoss === poss[l]){
+    if(guessPoss.toLowerCase() === poss[l]){
       alert('Right!');
       correct = true;
       numCorrect = numCorrect+1;
@@ -141,7 +141,9 @@ for(var n = 0; n<7; n++){
   
 } 
 
-alert('congrats! you got ' + numCorrect + ' out of 7 correct.');
+alert('Leah has been to the following countries: Italy, Spain, France, Austria, and The US, of course!');
+
+alert('Leah says: Congrats! you got ' + numCorrect + ' out of 7 correct. Thanks for invading my privacy, now go back to the main page.');
 
 
 
