@@ -86,22 +86,7 @@ if(knitting.toLowerCase() === 'yes'){
   alert('Following directions is not your thing, huh?');
 }
 
-/*
 
 
 
-//Question 5
 
-var knitting = prompt('Does Leah know how to knit or crochet?')
-
-console.log( "For question 5, the user answered " + knitting)
-
-if(knitting.toLowerCase() ==='yes'){
-alert('Correct! She loves doing both in her free time and sells her knit crafts on Etsy.'); //letting the user know they are correct if they answer yes
-} else if(knitting.toLowerCase() === 'no'){
-alert('Incorrect. She knows how to do both!'); //alerting the user they are incorrect if they answer no
-} else{
-alert('Following instructions isn\'t really your thing, huh?')
-}
-
-*/
