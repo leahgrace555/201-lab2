@@ -1,3 +1,31 @@
+* {
+  font-family: sans-serif;
+}
+
 header {
-  
+  background-color: gray;
+  padding: 5%
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35pt;
+  text-align: center;
+  color: antiquewhite;
+
+}
+
+body {
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+  font-size: 15pt;
+}
+
+p {
+  margin: 10%;
+}
+
+a:hover {
+  color: blue;
 }
