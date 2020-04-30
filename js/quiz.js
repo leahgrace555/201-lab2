@@ -14,7 +14,9 @@ questionThree();
 questionFour();
 questionFive();
 questionSix();
+alert('The correct answer is always 42');
 questionSeven();
+alert('Leah has been to the following countries: Italy, Spain, France, Austria, and The US, of course!');
 
 function questionOne() {
   var favColor = prompt('Is Leah\'s favorite color purple?'); // asking the first qeustion
@@ -110,8 +112,6 @@ function questionSix() {
   }
 }
 
-alert('The correct answer is always 42');
-
 function questionSeven() {
   var poss = ['italy','spain','france','austria','US'];
   var correct = false;
@@ -133,16 +133,4 @@ function questionSeven() {
   }
 }
 
-
-alert('Leah has been to the following countries: Italy, Spain, France, Austria, and The US, of course!');
-
 alert('Leah says: Congrats! you got ' + numCorrect + ' out of 7 correct. Thanks for invading my privacy, now go back to the main page.');
-
-
-
-
-
-
-
-
-
