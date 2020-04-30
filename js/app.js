@@ -1,7 +1,7 @@
 'use strict';
 
 function welcome() {
-  var yourName = prompt('Please enter your name, Please type your name here...');
+  var yourName = prompt('Please enter your name');
 
   var response = yourName;
   return response;
